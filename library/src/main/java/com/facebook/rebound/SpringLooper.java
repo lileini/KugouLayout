@@ -27,7 +27,7 @@ public abstract class SpringLooper {
 
   /**
    * The BaseSpringSystem has requested that the looper begins running this {@link Runnable}
-   * on every frame. The {@link Runnable} will continue running on every frame until
+   * on every frame. The {@link Runnable} will continue running on every frame until随时随刻
    * {@link #stop()} is called.
    * If an existing {@link Runnable} had been started on this looper, it will be cancelled.
    */

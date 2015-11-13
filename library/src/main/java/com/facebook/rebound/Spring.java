@@ -25,7 +25,7 @@ public class Spring {
   // fixed timestep to use in the physics solver in seconds
   private static final double SOLVER_TIMESTEP_SEC = 0.001;
   private SpringConfig mSpringConfig;
-  private boolean mOvershootClampingEnabled;
+  private boolean mOvershootClampingEnabled;//测试
 
   // storage for the current and prior physics state while integration is occurring
   private static class PhysicsState {
